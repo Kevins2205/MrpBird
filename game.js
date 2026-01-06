@@ -1,6 +1,10 @@
 const RAD = Math.PI / 180;
 const scrn = document.getElementById("canvas");
 const sctx = scrn.getContext("2d");
+SFX.bgm.src = "sfx/song.wav"; 
+SFX.bgm.loop = true; 
+// NUOVO: Ricarica e prova a caricarlo in memoria (non sempre necessario ma utile)
+SFX.bgm.load(); 
 scrn.tabIndex = 1;
 scrn.addEventListener("click", () => {
   switch (state.curr) {
@@ -359,5 +363,6 @@ function draw() {
   gnd.draw();
   UI.draw();
 }
+
 
 setInterval(gameLoop, 20);
