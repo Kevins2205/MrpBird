@@ -19,10 +19,10 @@ scrn.addEventListener("click", () => {
       pipe.pipes = [];
       UI.score.curr = 0;
       SFX.played = false;
-      // NUOVO: Reset stato pioggia/auguri
+      // LOGICA PIOGGIA: Reset stato pioggia/auguri
       UI.rainActive = false;
       stopRainEffect(); 
-      // FINE NUOVO
+      // FINE LOGICA PIOGGIA
       break;
   }
 });
@@ -46,10 +46,10 @@ scrn.onkeydown = function keyDown(e) {
         pipe.pipes = [];
         UI.score.curr = 0;
         SFX.played = false;
-        // NUOVO: Reset stato pioggia/auguri
+        // LOGICA PIOGGIA: Reset stato pioggia/auguri
         UI.rainActive = false;
         stopRainEffect(); 
-        // FINE NUOVO
+        // FINE LOGICA PIOGGIA
         break;
     }
   }
@@ -224,12 +224,12 @@ const bird = {
         SFX.score.play();
         pipe.moved = false;
 
-        // NUOVO: Attivazione della pioggia a 10 punti
-        if (UI.score.curr >= 5 && !UI.rainActive) { // CORRETTO A 10
+        // LOGICA PIOGGIA: Attivazione della pioggia a 5 punti
+        if (UI.score.curr >= 5 && !UI.rainActive) {
             UI.rainActive = true;
             startRainEffect(); // Funzione definita in rain.js
         }
-        // FINE NUOVO
+        // FINE LOGICA PIOGGIA
       }
     }
   },
