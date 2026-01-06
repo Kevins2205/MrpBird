@@ -10,7 +10,6 @@ Preparati a sfidare la gravità e i tubi rosa!
 |:---:|:---:|
 | <img src="assets/schermata_iniziale.jpeg" alt="Schermata Iniziale del gioco con la scritta FA NA CANN e il porcellino d'india" width="300"/> | <img src="assets/schermata_gioco.jpeg" alt="Schermata di gioco con il porcellino d'india che vola tra i tubi e il punteggio 2" width="300"/> |
 
-*(**Nota:** Assicurati di caricare le tue immagini nella cartella `assets/` o modifica i percorsi `assets/schermata_iniziale.png` e `assets/schermata_gioco.png`.)*
 
 ## 🕹️ Come si Gioca
 
@@ -24,7 +23,7 @@ L'obiettivo è far volare il Porcellino d'India tra i tubi senza toccare nulla, 
 
 ### 🏆 Funzione Speciale: La Pioggia di Auguri!
 
-Quando raggiungi il punteggio di **10**, una pioggia celebrativa di PNG personalizzati (Hello Kitty ingrandita, Siga e Maria) cadrà dall'alto dello schermo. La pioggia si fermerà automaticamente quando la partita termina e ricomincia.
+Quando raggiungi il punteggio di **5**, una pioggia celebrativa di PNG personalizzati (Hello Kitty ingrandita, Siga e Maria) cadrà dall'alto dello schermo. La pioggia si fermerà automaticamente quando la partita termina e ricomincia.
 
 ## 📱 Installazione come App su iPhone (iOS)
 
