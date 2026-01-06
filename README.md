@@ -8,7 +8,7 @@ Preparati a sfidare la gravità e i tubi rosa!
 
 | Schermata Iniziale | Schermata di Gioco |
 |:---:|:---:|
-| <img src="assets/schermata_iniziale.jpeg" alt="Schermata Iniziale del gioco con la scritta FA NA CANN e il porcellino d'india" width="300"/> | <img src="assets/schermata_gioco.png" alt="Schermata di gioco con il porcellino d'india che vola tra i tubi e il punteggio 2" width="300"/> |
+| <img src="assets/schermata_iniziale.jpeg" alt="Schermata Iniziale del gioco con la scritta FA NA CANN e il porcellino d'india" width="300"/> | <img src="assets/schermata_gioco.jpeg" alt="Schermata di gioco con il porcellino d'india che vola tra i tubi e il punteggio 2" width="300"/> |
 
 *(**Nota:** Assicurati di caricare le tue immagini nella cartella `assets/` o modifica i percorsi `assets/schermata_iniziale.png` e `assets/schermata_gioco.png`.)*
 
