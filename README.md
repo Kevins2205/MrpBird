@@ -42,11 +42,18 @@ L'icona apparirà sulla tua Schermata Home e il gioco si aprirà a schermo inter
 ## 🛠️ Struttura del Progetto
 
 Il gioco è costruito su HTML5 Canvas e puro JavaScript, con una struttura pulita:
-.
+
 ├── index.html # La pagina principale del gioco con il canvas e i tag meta per iOS.
+
 ├── style.css # Stili CSS per il layout e le ottimizzazioni di schermo intero.
+
 ├── game.js # La logica principale del gioco Flappy Bird (movimento, collisioni, punteggio).
+
 ├── rain.js # La logica per la pioggia di immagini a schermo intero.
+
 └── assets/ # Cartella per i file di presentazione (come questo README).
+
 └── img/ # Cartella per tutte le sprite (bird, pipes, bg, ground, auguri, siga, maria, hellokitty).
+
 └── sfx/ # Cartella per i file audio.
+
