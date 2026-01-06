@@ -6,14 +6,14 @@ const CANVAS = document.getElementById('canvas');
 const RAIN_ASSETS = [
     'img/siga.png', 
     'img/maria.png', 
-    'img/hellokitty.png', // L'asset che vogliamo ingrandire
+    'img/hellokitty.png', 
 ];
 
 let rainInterval;
 let assetIndex = 0;
 
 function getYStop() {
-    if (!CANVAS) return document.body.scrollHeight;
+    if (!CANVAS) return window.innerHeight; // Fallback all'intera finestra se il canvas non è pronto
     
     // 1. Ottieni la posizione del canvas rispetto alla finestra
     const rect = CANVAS.getBoundingClientRect();
@@ -34,11 +34,10 @@ function createRaindrop() {
     // Dimensione base (casuale tra 30px e 50px)
     let size = Math.floor(Math.random() * 20) + 30; 
     
-    // NUOVA LOGICA: Raddoppia la dimensione se l'asset è hellokitty
+    // LOGICA HELLOKITTY: Raddoppia la dimensione se l'asset è hellokitty
     if (assetPath.includes('hellokitty.png')) {
-        size = size * 3; // Raddoppia la dimensione
+        size = size * 3; // Raddoppia
     }
-    // FINE NUOVA LOGICA
     
     const initialX = Math.random() * window.innerWidth;
     
